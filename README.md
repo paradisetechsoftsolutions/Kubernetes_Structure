@@ -28,7 +28,9 @@ Following are some of the important features of Kubernetes.
 </ol>
 
 </br>
+
 --------------------------------------------------------------------------------------------------------------------------
+
 </br>
 
 
@@ -83,6 +85,7 @@ This is one of the key components of Kubernetes master. It is a service in maste
 </br>
 
 --------------------------------------------------------------------------------------------------------------------------
+
 </br>
 <li><strong>Kubernetes-Node Components</li></strong></br>
 
