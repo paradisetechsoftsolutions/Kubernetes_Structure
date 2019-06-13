@@ -6,7 +6,8 @@ Google built Kubernetes and has been using it for 10 years. That it has been use
 
 ![kubernetes-final](https://user-images.githubusercontent.com/39157936/59428050-de739280-8df9-11e9-972a-eba41df3c670.jpg)
 
-
+</br>
+</br>
 
 <li><strong>What is Kubernetes</strong></li>
 Kubernetes is a cluster and container management tool. It lets you deploy containers to clusters, meaning a network of virtual machines. It works with different containers, not just Docker.</br>
