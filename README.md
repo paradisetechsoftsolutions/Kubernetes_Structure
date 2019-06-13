@@ -2,7 +2,10 @@
 
 ## Kubernetes
 <ol>
-Google built Kubernetes and has been using it for 10 years. That it has been used to run Google’s massive systems.</br></br>
+Google built Kubernetes and has been using it for 10 years. That it has been used to run Google’s massive systems.</br></br>  
+
+![kubernetes-final](https://user-images.githubusercontent.com/39157936/59428050-de739280-8df9-11e9-972a-eba41df3c670.jpg)
+
 
 
 <li><strong>What is Kubernetes</strong></li>
