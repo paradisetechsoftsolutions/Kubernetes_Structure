@@ -64,7 +64,7 @@ These controllers include:
 </ol></br>
 
 
-<li><strong>cloud-controller-manager</strong></li>
+<li><strong>Cloud-controller-manager</strong></li>
 It is a responsible for managing controller processes with dependencies on the underlying cloud provider
 cloud-controller-manager runs controllers that interact with the underlying cloud providers.</br>
 cloud-controller-manager runs cloud-provider-specific controller loops only. You must disable these controller loops in the kube-controller-manager. You can disable the controller loops by setting the --cloud-provider flag to external when starting the kube-controller-manager.</br>
@@ -78,7 +78,7 @@ The following controllers have cloud provider dependencies:
 </ol></br>
 
 
-<li><strong>kube-scheduler</strong></li>
+<li><strong>Kube-scheduler</strong></li>
 Kube-scheduler helps schedule the pods (a co-located group of containers inside which our application processes are running) on the cluster nodes based on resource utilization</br>
 This is one of the key components of Kubernetes master. It is a service in master responsible for distributing the workload. It is responsible for tracking utilization of working load on cluster nodes and then placing the workload on which resources are available and accept the workload. In other words, this is the mechanism responsible for allocating pods to available nodes. The scheduler is responsible for workload utilization and allocating pod to new node.</br>
 </ol>
@@ -94,7 +94,7 @@ This is one of the key components of Kubernetes master. It is a service in maste
 The first requirement of each node is Docker which helps in running the encapsulated application containers in a relatively isolated but lightweight operating environment.</br>
 
 
-<li><strong>kubelet</li></strong>
+<li><strong>Kubelet</li></strong>
 An agent that runs on each node in the cluster. It makes sure that containers are running in a pod.</br>
 The kubelet takes a set of PodSpecs that are provided through various mechanisms and ensures that the containers described in those PodSpecs are running and healthy. The kubelet doesn’t manage containers which were not created by Kubernetes.</br>
 This is a small service in each node responsible for relaying information to and from control plane service. It interacts with etcd store to read configuration details and wright values. This communicates with the master component to receive commands and work. The kubelet process then assumes responsibility for maintaining the state of work and the node server. It manages network rules, port forwarding, etc.</br>
@@ -114,7 +114,7 @@ kube-proxy enables the Kubernetes service abstraction by maintaining network rul
 The container runtime is the software that is responsible for running containers. Kubernetes supports several runtimes: Docker, containerd, cri-o, rktlet and any implementation of the Kubernetes CRI (Container Runtime Interface).</br>
 
 
-<li><strong>kubectl</li></strong>
-is a command line tool that interacts with kube-apiserver and send commands to the master node. Each command is converted into an API call.
+<li><strong>Kubectl</li></strong>
+It is a command line tool that interacts with kube-apiserver and send commands to the master node. Each command is converted into an API call.
 
 </ol>            
